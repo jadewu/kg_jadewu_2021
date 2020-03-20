@@ -1,0 +1,5 @@
+abc bcd
+foo bar
+bar foo
+aaaab ac
+abba cdef
