@@ -1,7 +1,9 @@
 import sys
+
 # Read arguments
 s1 = sys.argv[1]
 s2 = sys.argv[2]
+
 # The function for solving this question
 def one_to_one(s1, s2):
     # Use set in python to remove duplicated elements
@@ -12,6 +14,7 @@ def one_to_one(s1, s2):
         return True
     return False
 print(one_to_one(s1,s2))
+
 '''
 # Debugging samples
 print(one_to_one("abc", "bcd"))
